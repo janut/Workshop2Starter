@@ -24,8 +24,9 @@ public class SecondActivity extends AppCompatActivity {
                 Intent replyIntent = new Intent();
                 //set the result for this activity
                 replyIntent.putExtra("message", userMessage);
-                //post the reply intent, and dend the activity
+                //set the result for this activity to be RESULT_OK and pass the Intent back to the calling Activity
                 setResult(Activity.RESULT_OK, replyIntent);
+                //end this activity
                 finish();
             }
         });
