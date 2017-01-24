@@ -28,10 +28,10 @@
         android:id="@+id/a2_button" />
 
     <Button
-        android:text="Button"
+        android:text="Start A3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_alignStart="@+id/a2_button"
-        android:id="@+id/button2" />
+        android:id="@+id/a3_button" />
 </RelativeLayout>
