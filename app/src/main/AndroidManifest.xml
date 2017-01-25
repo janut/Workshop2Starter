@@ -16,8 +16,13 @@
             </intent-filter>
         </activity>
         <activity android:name=".SecondActivity" >
+            <!--the intent-filter below was added by us to let us start SecondActivity with
+             the com.seneca.lab2b.XXXXXX intent -->
             <intent-filter>
+                <!-- "action" corresponds to our implicit intent..
+                 make sure you change it to match your username -->
                 <action android:name="com.seneca.lab2b.marek"/>
+                <!-- specifying category DEFAULT is necessary for this to work! -->
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
 
